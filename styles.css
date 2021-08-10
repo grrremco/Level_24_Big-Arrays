@@ -1,0 +1,30 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+  }
+  
+  nav input {
+    font-size: 24px;
+    margin: 20px 30px 10px 0;
+  }
+  
+  ul.results li span {
+    display: block;
+  }
+  
+  .sub_buttons input:not([type="checkbox"]):not([type="radio"]) {
+    display: inline;
+  }
+  
+  .sub_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+  }
+  
+  .sub_buttons input,
+  .sub_buttons {
+    margin: 10px 20px 10px 0;
+  }
+  
